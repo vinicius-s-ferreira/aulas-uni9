@@ -1,0 +1,10 @@
+let a, b;
+a=prompt("Digite um numero");
+a=parseInt(a);
+b=parseInt(prompt("Digite outro numero"));
+document.write (`soma: ${(a+b)}<br><br>`);
+document.write ("subtração: "+(a-b)+"<br><br>");
+document.write (`multiplicacao: ${(a*b)}<br><br>`);
+document.write (`divisao: ${(a/b)}<br><br>`);
+document.write (`resto: ${(a%b)}<br><br>`);
+document.write (`potencia: ${(a**b)}<br>`);
